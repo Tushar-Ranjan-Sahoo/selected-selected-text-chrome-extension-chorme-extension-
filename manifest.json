@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Selected Text Extension",
+  "description": "Displays selected text when clicked",
+  "version": "1.0",
+  "icons": {
+   
+    "48": "icon.jpeg"
+    
+  },
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_title": "Selected Text Extension",
+    "default_icon": "icon.jpeg",
+    "default_popup": "popup.html"
+  }
+}
